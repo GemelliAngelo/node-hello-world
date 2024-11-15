@@ -1,2 +1,2 @@
-const text = "Hello Boolean";
-console.log(text);
+const text = process.argv[2];
+console.log(`Hello ${text}`);
